@@ -1,0 +1,103 @@
+.nav-bar {
+    background-color:rgb(24, 155, 206);
+    
+    display: flex;
+    flex-direction: column;
+    padding: 20px 60px;
+  }
+  
+  .nav-bar-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .nav-items-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .header-link {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .header-logo {
+    min-width:10vw;
+    height: 11vh;
+  }
+  
+  .menu-container {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
+  
+  .menu-item {
+    font-family: 'HK Grotesk';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    margin-right: 16px;
+  }
+  
+  
+  
+ 
+  
+  
+  
+  @media screen and (max-width: 767px) {
+    .nav-bar {
+      padding: 20px 30px;
+    }
+  
+    .menu-container {
+      display: none;
+    }
+  
+    .profile-img {
+      display: none;
+    }
+  
+    .sm-menu-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .popup-menu-container {
+      display: flex;
+      list-style-type: none;
+      padding-left: 0;
+      width: 100%;
+    }
+  
+    .sm-header-item {
+      font-family: 'HK Grotesk';
+      font-weight: 400;
+      font-size: 18px;
+      color: #ffffff;
+      margin-right: 30px;
+    }
+ 
+  
+    .close-button {
+      padding: 0;
+      border: none;
+      outline: none;
+      background-color: transparent;
+    }
+  
+    .no-popup {
+      display: none;
+    }
+  
+   
+  
+    .header-logo {
+      width: 100px;
+      height: 57px;
+    }
+  }

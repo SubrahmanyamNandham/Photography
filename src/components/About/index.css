@@ -1,0 +1,13 @@
+.text{
+    color: #001f3f;
+    font-size: 26px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    padding-top: 20px;
+    font-weight: 700;
+}
+.sai{
+    width: 30vw;
+    height: 35vh;
+    color: #3D9970;
+}
